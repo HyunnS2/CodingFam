@@ -1,3 +1,4 @@
+// 소프티어 - lv.1근무시간
 
 int main(void) {
     int total = 0;
