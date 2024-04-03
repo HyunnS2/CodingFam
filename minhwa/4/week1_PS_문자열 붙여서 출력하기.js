@@ -1,4 +1,4 @@
-// 프로그래머스 - 181951 - a와 b 출력하기
+// 프로그래머스 - 181946 - 문자열 붙여서 출력하기
 
 const readline = require("readline");
 const rl = readline.createInterface({
@@ -11,7 +11,7 @@ let input = [];
 rl.on("line", function (line) {
     input = line.split(" ");
 }).on("close", function () {
-    console.log("a = " + Number(input[0]) + "\n" + "b = " + Number(input[1]));
-    // 이렇게도 가능하다.
-    // console.log("a = " + Number(input[0]) + "\nb = " + Number(input[1]));
+    str1 = input[0];
+    str2 = input[1];
+    console.log(str1 + str2);
 });
